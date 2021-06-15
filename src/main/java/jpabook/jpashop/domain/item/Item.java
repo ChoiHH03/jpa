@@ -27,7 +27,7 @@ public abstract class Item {
     private List<Category> categories = new ArrayList<Category>();
 
     //비즈니스 로직
-    public void addStrock(int quantity) {
+    public void addStock(int quantity) {
         this.stockQuantity += quantity;
     }
 
